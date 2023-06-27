@@ -1,0 +1,47 @@
+.tab-bar {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120rpx;
+  display: flex;
+  /*样式兼容*/
+  pointer-events: auto;
+    position: absolute;
+}
+.tab-bar-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.tab-bar-item image {
+  width: 27px;
+  height: 27px;
+}
+
+.tab-bar-item view {
+  font-size: 10px;
+}
+
+/*iphonex及以下*/
+.tabImg{
+	width: 750rpx;
+	height: 120rpx;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-bottom: constant(safe-area-inset-bottom);
+}
+
+/*iphonex及以上*/
+.isIPXup{
+	height: 188rpx;
+	width: 750rpx;
+	position: fixed;
+	bottom: 0;
+}

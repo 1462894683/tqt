@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "i18n": "uni-tool i18n",
+    "i18n-back": "uni-tool i18n --back"
+  },
+  "dependencies": {
+    "@luck-8/uni-tool": "^1.0.2",
+    "ali-oss": "^6.17.1",
+    "dayjs": "^1.11.7",
+    "luch-request": "^3.0.8",
+    "md5": "^2.3.0",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.7",
+    "uview-ui": "^2.0.36",
+    "z-paging": "^2.5.8"
+  }
+}

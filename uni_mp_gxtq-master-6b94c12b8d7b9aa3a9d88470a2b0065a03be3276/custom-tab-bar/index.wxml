@@ -1,0 +1,9 @@
+<!--miniprogram/custom-tab-bar/index.wxml-->
+<view class="tab-bar" style="bottom: {{statusBarHeight}}rpx;">
+<image class="tabImg" style="height: {{120+statusBarHeight}}rpx;" src="https://gitee.com/qiuyuqiuyu/picgo/raw/master/images/tab.png"></image>
+  <view class="tab-bar-border"></view>
+  <view wx:for="{{list}}" wx:key="index" class="tab-bar-item" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
+    <image src="{{selected === index ? item.selectedIconPath : item.iconPath}}"></image>
+    <view style="color: {{selected === index ? selectedColor : color}}">{{item.text}}</view>
+  </view>
+</view>
