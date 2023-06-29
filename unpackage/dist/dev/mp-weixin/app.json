@@ -7,9 +7,9 @@
     "pages/TabBar/Mine/Mine"
   ],
   "window": {
-    "navigationBarTextStyle": "white",
+    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#D1D3EC",
     "backgroundColor": "#F8F8F8",
     "navigationStyle": "custom"
   },

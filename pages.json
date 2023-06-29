@@ -1,11 +1,15 @@
 {
+	"easycom": {
+		"custom": {
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
 	"tabBar": {
 		"color": "#999999",
 		"selectedColor": "#00D465",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff00",
-		"list": [
-			{
+		"list": [{
 				"pagePath": "pages/TabBar/Home/Home",
 				"iconPath": "static/tabbar/home.png",
 				"selectedIconPath": "static/tabbar/homeSeleted.png",
@@ -40,65 +44,56 @@
 
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-	        "path" : "pages/TabBar/Home/Home",
-	        "style" :
-	        {
-	            "navigationBarTitleText": "首页",
-	            "enablePullDownRefresh": false,
+			"path": "pages/TabBar/Home/Home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
-	        }
-	
-	    }
-	    ,{
-	        "path" : "pages/TabBar/Stores/Stores",
-	        "style" :
-	        {
-	            "navigationBarTitleText": "商城",
-	            "enablePullDownRefresh": false,
+			}
+
+		}, {
+			"path": "pages/TabBar/Stores/Stores",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
-	        }
-	
-	    }
-	    ,{
-	        "path" : "pages/TabBar/Shopping/Shopping",
-	        "style" :
-	        {
-	            "navigationBarTitleText": "购物车",
-	            "enablePullDownRefresh": false,
+			}
+
+		}, {
+			"path": "pages/TabBar/Shopping/Shopping",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
-	        }
-	
-	    }
-	    ,{
-	        "path" : "pages/TabBar/Order/Order",
-	        "style" :
-	        {
-	            "navigationBarTitleText": "订单",
-	            "enablePullDownRefresh": false,
+			}
+
+		}, {
+			"path": "pages/TabBar/Order/Order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
-	        }
-	
-	    }
-	    ,{
-	        "path" : "pages/TabBar/Mine/Mine",
-	        "style" :
-	        {
-	            "navigationBarTitleText": "我的",
-	            "enablePullDownRefresh": false,
+			}
+
+		}, {
+			"path": "pages/TabBar/Mine/Mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
-	        }
-	
-	    }
-],
+			}
+
+		}
+	],
 	"globalStyle": {
-	"navigationBarTextStyle": "white",
-	"navigationBarTitleText": "uni-app",
-	"navigationBarBackgroundColor": "#F8F8F8",
-	"backgroundColor": "#F8F8F8",
-	"navigationStyle": "custom"
-	},
-	"uniIdRouter": {},
-	"window":{
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#D1D3EC",
+		"backgroundColor": "#F8F8F8",
 		"navigationStyle": "custom"
-	}
+	},
+	"uniIdRouter": {}
+	// "window":{
+	// 	"navigationStyle": "custom"
+	// }
 }
